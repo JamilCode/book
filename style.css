@@ -3,7 +3,7 @@ body {
 	text-align: center;
 	font-family: verdana;
 }
-img {
+.bookCover {
 	width: 200px;
 	border: 2px solid black;
 	padding: 5px;
@@ -11,4 +11,18 @@ img {
 
 ul {
 	list-style-type: none;
+}
+li {
+	margin-left: -10px;
+}
+.reviews {
+	display: flex;
+	justify-content: center;
+}
+
+.reviews img{
+	width: 300px;
+	height: 300px;
+	margin: 2px;
+	border: 1px solid black;
 }
